@@ -1,0 +1,92 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+#secwhatwedo{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/overly-img.png);
+    background-position: center;
+    background-size: 100%;
+    background-color: #122061;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    color: white;
+    text-align: center; 
+}
+section h5{
+    color: #279fd2;
+}
+.title{
+    margin: 0;
+    margin-top: 10px;
+}
+#divwhatwedo{
+    width: 65%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.divwhatwedo{
+    width: 21%;
+    height: 70%;
+    background-color: #17256e;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+#buttongetstarted{
+    background-color: #0ad3ef;
+    border-radius: 16px;
+    height: 7%;
+    width: 10%;
+    border: none;
+    color: white;
+    font-size: x-small;
+}
+.imgwhatwedo{
+    height: 12%;
+    width: 23%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.paragraphewhatwedo{
+    font-size: x-small;
+    padding-left: 10%;
+    opacity: 0.7;
+}
+.titrecase{
+    padding-left: 10%;
+    margin: 0;
+    margin-top: 15px;
+    
+}
+
+
+@media (max-width:425px){
+    #divwhatwedo{
+        width: 400px;
+        height: 200px;
+        flex-wrap: wrap;
+    }
+    .divwhatwedo{
+        width: 100px;
+    }
+    #secwhatwedo{
+        height: 1000px;
+    }
+    #buttongetstarted{
+        margin-top: 120px;
+        width: 100px;
+    }
+}
