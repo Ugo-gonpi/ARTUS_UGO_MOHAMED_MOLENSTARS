@@ -4,3 +4,57 @@ body {
     margin: 0;
     padding: 0;
 }
+
+@font-face{     
+    font-family: myFirstFont;     
+    src:url(./../src/font/RobotoMedium.ttf) 
+}
+
+header {
+    background-image: url(./../src/images/banner-overlay-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.headerTop {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.Logo>img {
+    height: 125px;
+    margin-left: 100px;
+}
+
+.Logo {
+    margin-top: 15px;
+}
+
+.navBar>nav {
+    margin-top: 60px;
+    margin-right: 50px;
+    display: flex;
+    gap: 25px;
+}
+
+.navBar>nav>a {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    font-family: myFirstFont;
+    margin-right: 40px;
+}
+
+.navBar>nav>div>button {
+    background-color: #09d4ef;
+    color: white;
+    height: 40px;
+    width: 125px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
