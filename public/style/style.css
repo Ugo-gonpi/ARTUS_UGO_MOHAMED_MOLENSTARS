@@ -1,6 +1,6 @@
 body {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -31,9 +31,9 @@ body {
 }
 
 /* Start of header modifications */
+
 header {
     background-image: url(./../src/images/banner-overlay-img.png);
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -55,11 +55,16 @@ header {
     margin-top: 15px;
 }
 
+.navrBar {
+    width: 100%;
+}
+
 .navBar>nav {
     margin-top: 60px;
     margin-right: 50px;
     display: flex;
     gap: 25px;
+    align-items: center;
 }
 
 .navBar>nav>a {
@@ -77,9 +82,7 @@ header {
     width: 125px;
     border: none;
     border-radius: 20px;
-    margin-bottom: 50px;
 }
-
 
 .headerBottom {
     display: flex;
@@ -108,6 +111,36 @@ header {
 }
 
 .imageLaptop>img {
-    height: 95%;
-    width: 80%;
+    height: 90%;
+    width: 70%;
+    margin-bottom: 40px;
 }
+
+.twoButtons {
+    display: flex;
+    gap: 15px;
+}
+
+.buttonGetStarted {
+    background-color: #09d4ef;
+    color: white;
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 20px;
+}
+
+.buttonContactUs {
+    background-color: #2052a2;
+    color: white;
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 20px;
+}
+
+/* End of header modifications */
+
+
+/* Start of media modifications, to make the site responsive to all types of devices */
+
