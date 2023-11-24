@@ -241,6 +241,7 @@ section h5{
 .title{
     margin: 0;
     margin-top: 10px;
+    font-size: medium;
 }
 #divwhatwedo{
     width: 65%;
@@ -329,6 +330,7 @@ section h5{
 }
 
 /* end section number tow */
+
 .Partners{
     width: 100%;
     /* height: 1000px; */
@@ -421,6 +423,7 @@ img22{
     width: 50%;
     height: 100%;
     background-color: red;
+    display: flex;
 }
 .divcyberL{
     background-color: #172B86;
@@ -474,3 +477,72 @@ img22{
     margin-left: 4%;
     border: none;
 }
+.caseLcyber{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    
+}
+#caseLcyber{
+    width: 40%;
+    background-image: url(../images/dots-img2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+
+}
+#caseRcyber{
+   width: 60%;
+   
+}
+.security{
+   color: white;
+}
+#opacitysecurity{
+    opacity: 0.7;
+}
+#pourcentage{
+   height: 16%;
+   width:100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding-top: 20px;
+   /* gap: 9%; */
+   /* background-color: #09d4ef; */
+   /* border-radius: 100px; */
+   
+}
+.pourcentage{
+   height: 100%;
+   /* width:100%; */
+   width: 110px;
+   border-radius: 2000px;
+   /* background-color: #02CCEB; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: xx-large;
+   font-weight: bold;
+   text-align: left;
+   color: white;
+   border:2px solid #02CCEB;
+}
+
+#bottomtext{
+    width: 100%;
+    height: 15%;
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.textunderporcent{
+    color: white;
+    align-items: right;
+    padding-bottom: 10%;
+    font-weight: bold;
+    padding-right: 2%;
+}
+
