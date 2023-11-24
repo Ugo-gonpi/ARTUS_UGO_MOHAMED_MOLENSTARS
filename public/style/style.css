@@ -1,3 +1,203 @@
+@font-face{     
+    font-family: myFirstFont;     
+    src:url(./../src/font/RobotoMedium.ttf) 
+}
+
+@font-face{     
+    font-family: mySecondFont;     
+    src:url(./../src/font/RobotoRegular.ttf) 
+}
+
+@font-face{     
+    font-family: myThirdFont;     
+    src:url(./../src/font/RobotoBold.ttf) 
+}
+
+@font-face{     
+    font-family: myFourthFont;     
+    src:url(./../src/font/OswaldMedium.ttf) 
+}
+
+@font-face{     
+    font-family: myFifthFont;     
+    src:url(./../src/font/OswaldRegular.ttf) 
+}
+
+/* Start of header modifications */
+
+header {
+    background-image: url(./../src/images/banner-overlay-img.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    background-color: #07134d;
+}
+
+.headerTop {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.Logo>img {
+    height: 125px;
+    margin-left: 100px;
+}
+
+.Logo {
+    margin-top: 15px;
+}
+
+.navBar>nav {
+    margin-top: 60px;
+    margin-right: 50px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.navBar>nav>a {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    font-family: myFirstFont;
+    margin-right: 40px;
+}
+
+.navBar>nav>div>button {
+    background-color: #09d4ef;
+    color: white;
+    height: 40px;
+    width: 125px;
+    border: none;
+    border-radius: 20px;
+}
+
+.headerBottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.cyberSecurity {
+    color: white;
+    font-size: x-large;
+    font-family: mySecondFont;
+    margin-bottom: 0;
+}
+
+.lorem {
+    color: white;
+    font-family: mySecondFont;
+    opacity: 0.7;
+    margin-top: 0;
+}
+
+.imageLaptop {
+    display: flex;
+    justify-content: center;
+}
+
+.imageLaptop>img {
+    height: 90%;
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.twoButtons {
+    display: flex;
+    gap: 15px;
+}
+
+.buttonGetStarted {
+    background-color: #09d4ef;
+    color: white;
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 20px;
+}
+
+.buttonContactUs {
+    background-color: #2052a2;
+    color: white;
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 20px;
+}
+
+/* End of header modifications */
+
+
+/* Start of media modifications, to make the site responsive to all types of devices */
+
+@media (max-width: 767px) {
+   header {
+    width: 95%;
+    height: 1200px;
+   }
+
+   .headerTop {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   .navBar>nav {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   }
+
+   .Logo {
+    margin-right: 150px;
+   }
+
+   .headerBottom {
+    flex-direction: column;
+    margin-right: 170px;
+   }
+
+   .imageLaptop {
+    height: 150px;
+    width: 200px;
+   }
+
+   .navBar>nav>a {
+    font-size: large;
+   }
+}
+
+@media (max-width: 425px) {
+    header {
+        width: 500px;
+        height: 1200px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        /* width: 810px; */
+        width: 810px;
+    }
+
+    .navBar>nav {
+        gap: 0px;
+    }
+
+    .Logo>img {
+        height: 100px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    header {
+        height: 800px;
+      
 body{
     height: 100vh;
     width: 100vw;
@@ -69,7 +269,6 @@ section h5{
     padding-left: 10%;
     margin: 0;
     margin-top: 15px;
-    
 }
 
 
