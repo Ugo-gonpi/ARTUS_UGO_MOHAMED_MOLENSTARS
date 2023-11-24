@@ -179,15 +179,26 @@ header {
     }
     .headerTop{
         flex-direction: column;
+        height: 200px;
     }
     .headerBottom{
+        display: flex;
         flex-direction: column;
     }
     .navbar{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+    }
+    nav{
         flex-direction: column;
         height: 500px;
+        /* flex-wrap: wrap; */
     }
-
+    .backgrounduimage{
+        flex-direction: column;
+        gap: 100px;
+    }
 
 }
 
