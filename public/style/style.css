@@ -16,8 +16,7 @@ body{
     align-items: center;
     justify-content: center;   
     color: white;
-    text-align: center;
-    
+    text-align: center; 
 }
 section h5{
     color: #279fd2;
@@ -39,6 +38,8 @@ section h5{
     height: 70%;
     background-color: #17256e;
     border-radius: 10px;
+    text-align: left;
+    
 }
 #buttongetstarted{
     background-color: #0ad3ef;
@@ -58,4 +59,34 @@ section h5{
 img{
     height: 100%;
     width: 100%;
+}
+.paragraphewhatwedo{
+    font-size: x-small;
+    padding-left: 10%;
+    opacity: 0.7;
+}
+.titrecase{
+    padding-left: 10%;
+    margin: 0;
+    margin-top: 15px;
+    
+}
+
+
+@media (max-width:425px){
+    #divwhatwedo{
+        width: 400px;
+        height: 200px;
+        flex-wrap: wrap;
+    }
+    .divwhatwedo{
+        width: 100px;
+    }
+    #secwhatwedo{
+        height: 1000px;
+    }
+    #buttongetstarted{
+        margin-top: 120px;
+        width: 100px;
+    }
 }
