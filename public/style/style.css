@@ -378,6 +378,53 @@ header {
 @media (max-width: 1024px) {
     header {
         height: 800px;
->>>>>>>>> Temporary merge branch 2
     }
 }
+
+
+.latestBlog {
+    background-color: #0a1650;
+    display: flex;
+    height: 500px;
+    align-items: center;
+}
+
+.mainBlog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-right: 150px;
+    margin-bottom: 250px;
+}
+
+.blogImages {
+    display: flex;
+    gap: 15px;
+}
+
+.imageDots>img {
+    transform: rotateY(180deg);
+    height: 200px;
+    margin-bottom: 170px;
+}
+
+.blogImage1 {
+    background-image: url(./../images/blog-post-img1.png);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.blogImage2 {
+    background-image: url(./../images/blog-post-img2.png);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
