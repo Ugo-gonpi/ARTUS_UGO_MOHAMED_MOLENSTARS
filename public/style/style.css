@@ -53,6 +53,7 @@ body{
     justify-content: end;
 }
 .listeReduce{
+    list-style: url()
     }
 #imgandtext{
     display: flex;
@@ -69,4 +70,15 @@ img22{
     background-color: #02CCEB;
     padding-top: 5px;
 
+}
+@media (max-width:500px){
+    #img2{
+        width: 300px;
+    }
+}
+@media (max-width:450px){
+    .thetext{
+        display: flex;
+        justify-content: center;
+    }
 }
