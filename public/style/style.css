@@ -545,4 +545,16 @@ img22{
     font-weight: bold;
     padding-right: 2%;
 }
+@media (max-width:425px){
+   #sectioncyber{
+    flex-direction: column;
+   }
+    .sectioncyber{
+        width: 100%;
+    }
+    #divinimg{
+        height: 300px;
+        flex-direction: column;
+    }
+   }
 
