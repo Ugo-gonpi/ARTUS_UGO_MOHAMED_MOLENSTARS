@@ -378,5 +378,6 @@ header {
 @media (max-width: 1024px) {
     header {
         height: 800px;
+>>>>>>>>> Temporary merge branch 2
     }
 }
