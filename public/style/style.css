@@ -330,3 +330,10 @@ img22{
 #h2stat{
     font-size: 35px;
 }
+#btnstat{
+    color: white;
+    border: none;
+    background-color: #0AD3EF;
+    padding: 15px 35px;
+    border-radius: 30px;
+}
