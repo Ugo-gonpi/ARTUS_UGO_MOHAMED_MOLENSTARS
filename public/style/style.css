@@ -219,6 +219,8 @@ body{
     padding: 0;
     margin: 0;
 }
+/* section number tow  */
+
 #secwhatwedo{
     width: 100%;
     height: 750px;
@@ -290,6 +292,7 @@ section h5{
     font-size: large;
 }
 
+/* responsive part */
 
 @media (max-width:425px){
     #divwhatwedo{
@@ -325,6 +328,7 @@ section h5{
     }
 }
 
+/* end section number tow */
 .Partners{
     width: 100%;
     /* height: 1000px; */
@@ -404,4 +408,69 @@ img22{
         display: flex;
         justify-content: center;
     }
+}
+
+/* start section cyber  */
+
+#sectioncyber{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.sectioncyber{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+.divcyberL{
+    background-color: #172B86;
+}
+.divcyberR{
+    background-image: url(../images/service-right-bg-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+#divinimg{
+    height: 38%;
+    width: 49%;
+    background-color: #02CCEB;
+    border-top-left-radius: 16px;
+    background-image: url(../images/service-box-img.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: 6% 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.cybertext{
+   margin: 0; 
+   /* margin-top: 10px; */
+   margin: 10px;
+   color: white;
+   /* opacity: 0.7; */
+   margin-left: 8%;
+   /* margin-top: 10%; */
+}
+#creative{
+    font-size: large;
+    margin-top: 20%;
+}
+#opacity{
+    opacity: 0.8;
+}
+#readtrigger{
+    height: 10%;
+    width: 30%;
+    color: white;
+    background-color: #02CCEB;
+    font-size: medium;
+    margin-left: 4%;
+    border: none;
 }
