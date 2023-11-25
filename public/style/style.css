@@ -267,6 +267,14 @@ section h5{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: margin-bottom 0.4s;
+    
+}
+.divwhatwedo:hover{
+    border: #02CCEB 2px solid;
+    
+    margin-bottom: 40px;
+
     
 }
 #buttongetstarted{
@@ -278,6 +286,15 @@ section h5{
     color: white;
     /* font-size: small; */
 }
+
+/* pour le fun pas dans l exo  */
+#buttongetstarted:hover{
+    background-color: #07134d;
+    color: #02CCEB;
+    border: #02CCEB 2px solid;
+    background-position: 20%;
+}
+/* pour le fun pas dans l exo  */
 .imgwhatwedo{
     height: 18%;
     width: 31%;
@@ -288,6 +305,14 @@ section h5{
     height: 100%;
     width: 100%;
 }
+/* #imageart1{
+    background-image: url(../images/Effective-sec-item-img1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+/* .imageartus:hover{
+   padding-top: 100px;
+} */
 .paragraphewhatwedo{
     font-size: large;
     padding-left: 10%;
