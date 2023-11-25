@@ -187,7 +187,14 @@ header {
         flex-direction: column;
         height: 500px;
     }
+    .artustest{
+        margin-left: 10px;
+        font-size: smaller;
+    }
 
+    /* .lorem{
+        margin-right: 1000px;
+    } */
 
 }
 
