@@ -244,6 +244,18 @@ body{
     font-family: mySecondFont;
     font-size: xx-large;
 }
+#bluetitlesec1{
+    /* font-family: myFirstFont;   */
+    /* font-family: mySecondFont; */
+    /* font-family: myThirdFont;      */
+    /* font-family: myFourthFont;      */
+    font-family: myFifthFont;
+    font-size: x-large;
+}
+#bluetitlesec2{
+    font-family: myFifthFont;
+    font-size: x-large;
+}
 
 #secwhatwedo{
     width: 100%;
