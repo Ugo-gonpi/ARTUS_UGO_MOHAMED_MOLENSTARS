@@ -228,6 +228,23 @@ body{
 }
 /* section number tow  */
 
+#bigtitllesec2{
+    font-family: mySecondFont;
+    font-size: xx-large;
+}
+#bigtitllesec3{
+    font-family: mySecondFont;
+    font-size: xx-large;
+}
+#bigtitlesec1{
+    font-family: mySecondFont;
+    font-size: xx-large;
+}
+#bigtitlesec02{
+    font-family: mySecondFont;
+    font-size: xx-large;
+}
+
 #secwhatwedo{
     width: 100%;
     height: 750px;
@@ -748,6 +765,8 @@ img22{
 }
 #h2stat{
     font-size: 35px;
+    font-family: mySecondFont;
+    font-size: xx-large;
 }
 #btnstat{
     color: white;
