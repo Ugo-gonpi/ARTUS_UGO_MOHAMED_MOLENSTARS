@@ -185,23 +185,37 @@ header {
         display: flex;
         flex-direction: column;
     }
-    .navbar{
+    .navBar{
         display: flex;
         flex-direction: column;
         height: 600px;
+        margin-top: 100px;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        margin-top: 100px;
     }
     nav{
         flex-direction: column;
         height: 500px;
         /* flex-wrap: wrap; */
     }
-    .backgrounduimage{
+    .backgroundImage{
         flex-direction: column;
         gap: 100px;
+        height: 800px   ;
+    }
+    .headerBottom{
+        margin: 100px;
     }
     .artustest{
-        margin-left: 10px;
+        margin-right: 100px;
         font-size: smaller;
+    }
+    .imageLaptop{
+        margin-right: 80px;
     }
 
     /* .lorem{
@@ -209,6 +223,17 @@ header {
     } */
 
     }
+    @media (min-width:426px) and (max-width: 768px) {
+        .navBar{
+            width: 1%px;
+            gap: 1px;
+        }
+        #contactusugo{
+            margin-right: 70px;
+        }
+    }
+
+
 
 /* @media (max-width: 768px) {
     header {
