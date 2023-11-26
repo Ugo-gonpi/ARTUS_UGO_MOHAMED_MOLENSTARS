@@ -422,7 +422,12 @@ header {
     align-items: flex-end;
     color: white;
     padding-left: 30px;
+}
 
+.blogImage1:hover {
+    transform: rotateY(30deg);
+    transition: 1s;
+    color: blue;
 }
 
 .blogImage2 {
@@ -451,4 +456,81 @@ header {
 .tallerTitle {
     color: white;
     font-size: xx-large;
+}
+
+.form {
+    background-color: #0a1650;
+    height: 500px;
+}
+
+.formtext {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.formInputs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 30px;
+    border: none;
+}
+
+.formInputs>input {
+    border: solid white 1px;
+    opacity: 0.5;
+    border-radius: 5px;
+    background-color: #07134d;
+    width: 175px;
+}
+
+.formMessage {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.formMessage>input {
+    border: solid white 1px;
+    opacity: 0.5;
+    border-radius: 5px;
+    background-color: #07134d;
+    margin-top: 20px;
+    height: 95px;
+    width: 580px;
+}
+
+.formButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.dotImageLeft {
+    display: flex;
+    justify-content: end;
+}
+
+.dotImageLeft>img {
+    height: 200px;
+}
+
+.getInTouch {
+    color: #36b2de;
+    font-size: small;
+}
+
+.sendMessage {
+    color: white;
+    font-size: xx-large;
+}
+
+.submitButton {
+    background-color: #09d4ef;
+    color: white;
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 20px;
 }
