@@ -513,6 +513,26 @@ img22{
         display: flex;
         justify-content: center;
     }
+    .class4{
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 600px;
+    }
+    #square{
+        padding-top: 1000px;
+    }
+    #footer1{
+        /* display:flex ;
+        flex-direction: column;
+        /* height: 8000px; */
+        /* padding-bottom: 3000px; */ */
+    }
+    #footer2{
+        height: 800px;
+        padding-bottom: 3000px;
+    
+    }
 }
 
 /* start section cyber  */
