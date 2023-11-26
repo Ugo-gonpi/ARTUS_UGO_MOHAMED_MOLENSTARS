@@ -396,7 +396,7 @@ header {
     justify-content: center;
     width: 100%;
     margin-right: 150px;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
 }
 
 .blogImages {
@@ -414,17 +414,41 @@ header {
     background-image: url(./../images/blog-post-img1.png);
     background-position: center;
     background-size: cover;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: white;
+    padding-left: 30px;
+
 }
 
 .blogImage2 {
     background-image: url(./../images/blog-post-img2.png);
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: white;
+    padding-left: 30px;
 }
 
+.titlesBlog {
+    text-align: center;
+}
+
+.smallerTitle {
+    color: #36b2de;
+    font-size: small;
+}
+
+.tallerTitle {
+    color: white;
+    font-size: xx-large;
+}
