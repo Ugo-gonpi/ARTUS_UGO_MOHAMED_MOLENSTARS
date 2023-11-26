@@ -468,6 +468,10 @@ header {
 .form {
     background-color: #0a1650;
     height: 500px;
+    background-image: url(./../images/dots-img.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px contain;
+    background-position: 100%;
 }
 
 .formtext {
@@ -512,11 +516,6 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 100px;
-}
-
-.dotImageLeft {
-    display: flex;
-    justify-content: end;
 }
 
 .dotImageLeft>img {
