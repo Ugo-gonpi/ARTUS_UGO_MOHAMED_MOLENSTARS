@@ -582,6 +582,7 @@ img22{
     margin-left: 4%;
     border: none;
     font-family: myFirstFont; 
+    opacity: 0.7;
 }
 .caseLcyber{
     height: 100%;
@@ -838,4 +839,33 @@ img22{
     background-color: #0AD3EF;
     padding: 15px 35px;
     border-radius: 30px;
+}
+
+/* footer part */
+
+.footercontainer{
+    width: 100%;
+}
+
+#footercontainer{
+    height: 600px;
+    background-color: #07134d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+#footercontainer2{
+    height: 100px;
+    background-color: red;
+}
+.artusdivfoot{
+    height: 80%;
+    width: 20%;
+    background-color: red;
+}
+.middiv{
+    width: 10%;
 }
