@@ -840,32 +840,3 @@ img22{
     padding: 15px 35px;
     border-radius: 30px;
 }
-
-/* footer part */
-
-.footercontainer{
-    width: 100%;
-}
-
-#footercontainer{
-    height: 600px;
-    background-color: #07134d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-
-}
-
-#footercontainer2{
-    height: 100px;
-    background-color: red;
-}
-.artusdivfoot{
-    height: 80%;
-    width: 20%;
-    background-color: red;
-}
-.middiv{
-    width: 10%;
-}
