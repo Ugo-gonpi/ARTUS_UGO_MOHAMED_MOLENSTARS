@@ -293,6 +293,19 @@ body{
     font-family: myFifthFont;
     font-size: x-large;
 }
+.titrecase{
+    padding-left: 10%;
+    margin: 0;
+    margin-top: 40px;
+    font-size: large;
+    font-family: myThirdFont;
+}
+.paragraphewhatwedo{
+    font-size: large;
+    padding-left: 10%;
+    opacity: 0.7;
+    font-family: myFirstFont;
+}
 
 #secwhatwedo{
     width: 100%;
@@ -379,17 +392,8 @@ section h5{
 /* .imageartus:hover{
    padding-top: 100px;
 } */
-.paragraphewhatwedo{
-    font-size: large;
-    padding-left: 10%;
-    opacity: 0.7;
-}
-.titrecase{
-    padding-left: 10%;
-    margin: 0;
-    margin-top: 40px;
-    font-size: large;
-}
+
+
 
 /* responsive part */
 
@@ -544,7 +548,7 @@ img22{
     background-image: url(../images/service-box-img.png);
     background-repeat: no-repeat;
     background-size: 25%;
-    background-position: 6% 20%;
+    background-position: 6% 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -559,7 +563,9 @@ img22{
    /* opacity: 0.7; */
    margin-left: 8%;
    /* margin-top: 10%; */
+   font-family: myFirstFont;
 }
+
 #creative{
     font-size: large;
     margin-top: 20%;
@@ -575,6 +581,7 @@ img22{
     font-size: medium;
     margin-left: 4%;
     border: none;
+    font-family: myFirstFont; 
 }
 .caseLcyber{
     height: 100%;
@@ -601,6 +608,12 @@ img22{
 }
 #opacitysecurity{
     opacity: 0.7;
+    font-family: myFirstFont;
+     /* font-family: myFirstFont;   */
+    /* font-family: mySecondFont; */
+    /* font-family: myThirdFont;      */
+    /* font-family: myFourthFont;      */
+    /* font-family: myFifthFont; */
 }
 #pourcentage{
    height: 16%;
@@ -612,6 +625,7 @@ img22{
    /* gap: 9%; */
    /* background-color: #09d4ef; */
    /* border-radius: 100px; */
+   font-family: myFifthFont;
    
 }
 .pourcentage{
@@ -636,6 +650,7 @@ img22{
     display: flex;
    align-items: center;
    justify-content: space-around;
+   font-family: myFirstFont;
 }
 .textunderporcent{
     color: white;
