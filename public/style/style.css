@@ -425,9 +425,10 @@ header {
 }
 
 .blogImage1:hover {
-    transform: rotateY(30deg);
-    transition: 1s;
-    color: blue;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: transform .8s;
 }
 
 .blogImage2 {
@@ -444,6 +445,12 @@ header {
     padding-left: 30px;
 }
 
+.blogImage2:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: transform .8s;
+}
 .titlesBlog {
     text-align: center;
 }
@@ -533,4 +540,9 @@ header {
     width: 110px;
     border: none;
     border-radius: 20px;
+}
+
+
+@media (max-width: 425px) {
+    
 }
