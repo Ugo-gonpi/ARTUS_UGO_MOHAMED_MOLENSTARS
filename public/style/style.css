@@ -288,6 +288,7 @@ body{
     /* font-family: myFourthFont;      */
     font-family: myFifthFont;
     font-size: x-large;
+    font-weight: lighter;
 }
 #bluetitlesec2{
     font-family: myFifthFont;
@@ -349,10 +350,23 @@ section h5{
     transition: margin-bottom 0.4s;
     
 }
-.divwhatwedo:hover{
-    border: #02CCEB 2px solid;
+.imgwhatwedo{
+    transition: margin-bottom 0.4s;
+}
+
+.divwhatwedo:hover .imgwhatwedo{
+    /* border: #02CCEB 2px solid; */
+    /* transition: margin-bottom 0.4s; */
+
+    margin-bottom: 20px;
+
     
-    margin-bottom: 40px;
+}
+.divwhatwedo:hover {
+    border: #02CCEB 2px solid;
+    transition: margin-bottom 0.4s;
+
+    /* margin-bottom: 40px; */
 
     
 }
