@@ -287,8 +287,9 @@ body{
     /* font-family: myThirdFont;      */
     /* font-family: myFourthFont;      */
     font-family: myFifthFont;
-    font-size: x-large;
+    font-size: large;
     font-weight: lighter;
+    letter-spacing: 5px;
 }
 #bluetitlesec2{
     font-family: myFifthFont;
@@ -297,7 +298,7 @@ body{
 .titrecase{
     padding-left: 10%;
     margin: 0;
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: large;
     font-family: myThirdFont;
 }
@@ -306,6 +307,7 @@ body{
     padding-left: 10%;
     opacity: 0.7;
     font-family: myFirstFont;
+    font-weight: lighter !important; 
 }
 
 #secwhatwedo{
@@ -340,43 +342,64 @@ section h5{
 }
 .divwhatwedo{
     width: 21%;
-    height: 70%;
+    height: 80%;
     background-color: #17256e;
     border-radius: 10px;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: margin-bottom 0.4s;
+    transition: padding-bottom 1s;
     
 }
 .imgwhatwedo{
-    transition: margin-bottom 0.4s;
+    /* transition: margin-bottom 0.4s; */
+    /* transition: padding-bottom 1s; */
+    padding-top: 20px;
+    padding-left: 10px;
+    transition: padding-top 0.6s;
 }
 
 .divwhatwedo:hover .imgwhatwedo{
     /* border: #02CCEB 2px solid; */
     /* transition: margin-bottom 0.4s; */
 
-    margin-bottom: 20px;
+    padding-bottom: 10px;
 
     
 }
 .divwhatwedo:hover {
     border: #02CCEB 2px solid;
-    transition: margin-bottom 0.4s;
+    /* transition: margin-bottom 0.4s; */
 
     /* margin-bottom: 40px; */
 
     
 }
+.tryhover {
+    width: 100%;
+    height: 30%;
+}
+/* .divwhatwedo:hover .tryhover{
+    padding-bottom: 10px;
+} */
+/* #imageart1{
+    padding-top: 40px;
+    padding-left: 10px;
+    transition: padding-top 1s;
+} */
+.divwhatwedo:hover .imgwhatwedo{
+    padding-top: 3px;
+}
 #buttongetstarted{
     background-color: #0ad3ef;
-    border-radius: 16px;
+    border-radius: 30px;
     height: 7%;
-    width: 10%;
+    width: 9%;
     border: none;
     color: white;
+    /* font-weight: bold; */
+    font-size: large
     /* font-size: small; */
 }
 
@@ -389,8 +412,10 @@ section h5{
 }
 /* pour le fun pas dans l exo  */
 .imgwhatwedo{
-    height: 18%;
-    width: 31%;
+    /* height: 18%;
+    width: 31%; */
+    height: 65px;
+    width: 91px;
     margin-left: 15px;
     margin-top: 15px;
 }
@@ -536,12 +561,12 @@ img22{
     #square{
         padding-top: 1000px;
     }
-    #footer1{
-        /* display:flex ;
+    /* #footer1{
+        display:flex ;
         flex-direction: column;
-        /* height: 8000px; */
-        /* padding-bottom: 3000px; */ */
-    }
+        height: 8000px; 
+        padding-bottom: 3000px; 
+    } */
     #footer2{
         height: 800px;
         padding-bottom: 3000px;
