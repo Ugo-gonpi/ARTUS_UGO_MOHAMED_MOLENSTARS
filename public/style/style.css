@@ -435,23 +435,36 @@ section h5{
 
 
 /* responsive part */
+@media (max-width:1024px) {
+    #divwhatwedo{
+        width: 90%;
+    }
+    /* .imageartus{
+        height: 50%;
+        width: 50%;
+    } */
+}
 
 @media (max-width:425px){
+    #secwhatwedo{
+        height: 1200px !important;
+    }
     #divwhatwedo{
         width: 400px;
         height: 200px;
         flex-wrap: wrap;
     }
     .divwhatwedo{
-        width: 100px;
+        width: 200px;
         height: 80%;
     }
     #secwhatwedo{
         height: 1000px;
     }
     #buttongetstarted{
-        margin-top: 120px;
+        /* margin-top: 120px; */
         width: 100px;
+        
     }
     .titrecase{
         font-size: smaller;
@@ -467,8 +480,15 @@ section h5{
     }
     #buttongetstarted{
         margin-top: 200px;
+        margin-left: 310px;
+    }
+    .imageartus{
+        height: 50%;
+        width: 50%;
+
     }
 }
+
 
 /* end section number tow */
 
