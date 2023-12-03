@@ -498,6 +498,10 @@ section h5{
     background-color: #0A1650;
     display: flex;
     flex-direction: column;
+    padding-bottom: 100px;
+}
+.pP{
+    color: #32A5D3;
 }
 #WereWorking{
     display: flex;
@@ -511,6 +515,7 @@ section h5{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-size: 25px;
 }
 #imagediv1{
     display: flex;
@@ -522,29 +527,20 @@ section h5{
     transition: 0.5s;
     flex-wrap: wrap;
 }
-#img1{
-    border: #17256E 1px solid;
-    background-color: #17256E;
-    padding: 20px;
-    border-radius: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    transition: 0.5s;
-}
 #ReduceRisk{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 25px;
     position: relative;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    font-size: 18px;
 }
-#img2div2{
-    display: flex;
-    justify-content: end;
+#ReduceRisk h1{
+    font-size: 30px;
 }
+
 .listeReduce{
-    list-style: url()
+    list-style: url(../images/checked.jpeg);
     }
 #imgandtext{
     display: flex;
@@ -553,14 +549,43 @@ section h5{
     flex-wrap: wrap;
     
 }
-img22{
+#ReduceRisk #img22{
     position: absolute;
-    right: 0px;
+    left: 1715px;
+    margin: 0;
 }
-#img1:hover{
+#img22{
+    display: flex;
+    justify-content: space-between;
+}
+#img22 img{
+    height: 300px;
+}
+#imagediv11 {
+    background-color: #17256e;
+    width: 170px;
+    height: 160px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+#imagediv11 img{
+    width: 110px;
+    height: 110px;
+}
+#imagediv11:hover img{
+    filter: brightness(100);
+    transition: 1s;
+    transition-timing-function: ease;
+    transform: translateY(-10px);
+}
+#imagediv11:hover {
     background-color: #02CCEB;
-    padding-top: 5px;
-
+}
+#img2{
+    height: 500px;
 }
 @media (max-width:500px){
     #img2{
