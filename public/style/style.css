@@ -10,6 +10,9 @@ body{
     flex-direction: column;
     padding-bottom: 100px;
 }
+.pP{
+    color: #32A5D3;
+}
 #WereWorking{
     display: flex;
     justify-content: center;
@@ -35,7 +38,7 @@ body{
 }
 #ReduceRisk{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 25px;
     position: relative;
     flex-wrap: wrap;
@@ -51,9 +54,13 @@ body{
     flex-wrap: wrap;
     
 }
-#ReduceRisk img{
+#ReduceRisk #img22{
+    position: absolute;
+    left: 1715px;
+}
+#img22{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
 }
 #img22 img{
     height: 300px;
@@ -95,5 +102,12 @@ body{
     .thetext{
         display: flex;
         justify-content: center;
+    }
+}
+@media (max-width:500px){
+    #img22{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
