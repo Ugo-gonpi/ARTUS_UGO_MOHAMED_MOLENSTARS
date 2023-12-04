@@ -294,6 +294,8 @@ body{
 #bluetitlesec2{
     font-family: myFifthFont;
     font-size: x-large;
+    letter-spacing: 5px;
+    font-weight: lighter;
 }
 .titrecase{
     padding-left: 10%;
@@ -633,7 +635,7 @@ section h5{
     display: flex;
 }
 .divcyberL{
-    background-color: #172B86;
+    background-color: #0A1650;
 }
 .divcyberR{
     background-image: url(../images/service-right-bg-img.png);
@@ -719,6 +721,7 @@ section h5{
     /* font-family: myThirdFont;      */
     /* font-family: myFourthFont;      */
     /* font-family: myFifthFont; */
+    color: #7183BE;
 }
 #pourcentage{
    height: 16%;
