@@ -625,7 +625,8 @@ section h5{
 
 #sectioncyber{
     width: 100%;
-    height: 700px;
+    height: 800px;
+    /* height: 700px; */
     display: flex;
 }
 .sectioncyber{
@@ -737,9 +738,10 @@ section h5{
    
 }
 .pourcentage{
-   height: 100%;
+    height: 120px;
+   /* height: 100%; */
    /* width:100%; */
-   width: 110px;
+   width: 120px;
    border-radius: 2000px;
    /* background-color: #02CCEB; */
    display: flex;
