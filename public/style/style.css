@@ -37,6 +37,8 @@ header {
 .headerTop {
     display: flex; 
     justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }
 
 .Logo>img {
@@ -59,7 +61,7 @@ header {
 .navBar>nav>a {
     color: white;
     text-decoration: none;
-    font-size: x-small;
+    font-size: small;
     font-family: myFirstFont;
     margin-right: 70px;
 }
@@ -83,6 +85,10 @@ header {
 .contactUs{
     margin-left: 100px;
     margin-top: 20px;
+}
+
+.contactusugo{
+    text-align: center;
 }
 
 .cyberSecurity {
@@ -1164,23 +1170,41 @@ footer{
 .formInputs {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
-    height: 30px;
+    height: 400px;
+    width: 100vw;
     border: none;
 }
 
-.formInputs>input {
+.containerinpute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    flex-direction: column;
+    width: 200px;
+}
+
+.containerinpute>.inputsOne>input {
     border: solid white 1px;
     opacity: 0.5;
     border-radius: 5px;
     background-color: #07134d;
-    width: 175px;
+    width: 250px;
+}
+.inputsOne {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150%;
+    gap: 10px;
 }
 
 .formMessage {
     display: flex;
-    justify-content: center;
-    height: 50px;
+    height: 100px;
+    width: max-content;
 }
 
 .formMessage>input {
