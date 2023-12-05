@@ -1093,7 +1093,8 @@ footer{
 
 .imageDots>img {
     transform: rotateY(180deg);
-    height: 200px;
+    height: 250px;
+    width: 200px;
     margin-bottom: 170px;
 }
 
@@ -1109,13 +1110,22 @@ footer{
     align-items: flex-end;
     color: white;
     padding-left: 30px;
+    transition: 0.5s;
 }
 
 .blogImage1:hover {
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-    transition: transform .8s;
+    transform: rotate(2deg) scale(1.05);
+}
+
+.textBlog {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-family: mySecondFont;
+}
+
+.textBlog:hover{
+    color: blue;
 }
 
 .blogImage2 {
@@ -1130,13 +1140,18 @@ footer{
     align-items: flex-end;
     color: white;
     padding-left: 30px;
+    transition: 0.5s;
+}
+
+.animation:hover {
+    overflow: hidden;
+}
+.animation{
+    position: relative;
 }
 
 .blogImage2:hover {
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-    transition: transform .8s;
+    transform: rotate(2deg) scale(1.05);
 }
 .titlesBlog {
     text-align: center;
@@ -1181,7 +1196,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: purple;
     flex-direction: column;
     width: 200px;
 }
@@ -1224,7 +1238,8 @@ footer{
 }
 
 .dotImageLeft>img {
-    height: 200px;
+    height: 250px;
+    width: 200px;
 }
 
 .getInTouch {
@@ -1244,4 +1259,7 @@ footer{
     width: 110px;
     border: none;
     border-radius: 20px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
 }
