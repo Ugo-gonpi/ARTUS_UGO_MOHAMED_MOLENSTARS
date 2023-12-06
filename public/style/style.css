@@ -1125,9 +1125,32 @@ footer{
     font-family: mySecondFont;
 }
 
-.textBlog:hover{
+/* .textBlog:hover{
+    color: #02CCEB;
+} */
+#firsthover:hover{
     color: #02CCEB;
 }
+#secondhover:hover{
+    color: #02CCEB;
+}
+#lasthover:hover{
+    color: #02CCEB;
+}
+
+#quatrieme:hover{
+    color: #02CCEB;
+}
+#cinq:hover{
+    color: #02CCEB;
+}
+#six:hover{
+    color: #02CCEB;
+}
+
+
+
+
 
 .blogImage2 {
     background-image: url(./../images/blog-post-img2.png);
