@@ -1126,7 +1126,7 @@ footer{
 }
 
 .textBlog:hover{
-    color: blue;
+    color: #02CCEB;
 }
 
 .blogImage2 {
@@ -1189,7 +1189,7 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    height: 400px;
+    height: 300px;
     width: 100vw;
     border: none;
 }
@@ -1263,4 +1263,8 @@ footer{
     width: 110px;
     border: none;
     border-radius: 20px;
+}
+.submitButton:hover{
+    background-color: #07134d;
+    border: #02CCEB 2px solid;
 }
